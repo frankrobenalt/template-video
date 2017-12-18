@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="programs.css">
+        <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">        
+    </head>
+    
+    <body>
+            <!-- sticky header -->
+     <section class="top-section">       
+            <header id="header-sticky" class="header">
+                <div class="logo">
+                    <img src="http://westernusa.salvationarmy.org/templates/symphony/static_resources/images/global/shield.svg" alt="">
+                </div>
+                <div class="flex header-links">
+                    <div class="flex">
+                        <div class="sticky-nav-link">
+                            Locations
+                        </div>
+                        <div class="sticky-nav-link">
+                            Donate
+                        </div>
+                    </div>
+                    <div class="sticky-nav-link">
+                        Menu
+                    </div>
+                </div>
+            </header>
+            <!-- main nav -->
+    <header class="header">
+        <div class="logo">
+            <img src="http://westernusa.salvationarmy.org/templates/symphony/static_resources/images/global/shield.svg" alt="">
+        </div>
+        <div class="flex header-links">
+            <div class="flex">
+                <div class="nav-link">
+                    Locations
+                </div>
+                <div class="nav-link">
+                    Donate
+                </div>
+            </div>
+            <div class="nav-link" onclick="showNav()">
+                Menu
+            </div>
+        </div>
+    </header>
+
+    <!-- menu -->
+    <section>
+        <div id="menu-container">
+            <div class="menu-options-container">
+                <div class="menu-option">
+                    <div class="option">Home</div>
+                </div>
+                <div class="menu-option">
+                    <div class="option">Donate</div>
+                </div>
+                <div class="menu-option">
+                    <div class="option">Ways We Help</div>
+                </div>
+            </div>
+            <div class="close-menu-section">
+                <div onclick="hideNav()" class="close-button">
+                    X
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- video background -->
+    <section>
+        <video autoplay loop id="video-background" muted plays-inline>
+            <source src="./img/xmas.mp4" type="video/mp4">
+        </video>
+    </section>
+    <!-- video overlay -->
+    <section class="overlay">
+    <img src="./img/mostgood.svg" alt="loogoo">       
+    </section>
+    <div id="donate-modal" class="modal-wrapper" style="display:none">
+        <!-- <div class="modal"> -->
+            <!-- <div class="modal-text-and-logo"> -->
+                <img src="./img/logo-modal.svg" type="" />
+                <!-- <div class="modal-header">
+
+                    <div class="logo2">
+                        <img src="./img/logo-modal.png" alt="logo">
+                    </div>
+                </div>
+                <p>
+                    Until Dec 31st, all donations are being matched by our sponsors. Donate now to help us give double the help this christmas
+                    season.
+                </p>
+                <div class="modal-button">
+                    <div>Donate</div>
+                </div> -->
+            <!-- </div> -->
+            <!-- <div class="suggestions-container">
+                <div class="red-body-container">
+                    <div class="num">$10</div>
+                    <div class="red-body-text">Basic needs kit for a homeless person</div>
+                </div>
+                <div class="red-body-container" style="width: 80%">
+                    <div class="num">$25</div>
+                    <div class="red-body-text">A coat to keep a child warm</div>
+                </div>
+                <div class="red-body-container" style="width: 95%">
+                    <div class="num">$50</div>
+                    <div class="red-body-text">Assist an emergency disaster victim</div>
+                </div>
+                <div class="red-body-container" style="width: 110%">
+                    <div class="num">$75</div>
+                    <div class="red-body-text">Send a child to camp</div>
+                </div>
+                <div class="red-body-container" style="width: 125%">
+                    <div class="num">$100</div>
+                    <div class="red-body-text">2 weeks of meals to a family of 4</div>
+                </div>
+                <div class="red-body-container" style="width: 150%">
+                    <div class="num">$1000</div>
+                    <div class="red-body-text">Feed, house, and counsel a family for a month</div>
+                </div>
+            </div> -->
+        <!-- </div> -->
+    </div>
+</section>
+<section id="everything-under-video" style="padding-top: 75px">
+    <section id="programs">
+        <div class="programs-header">
+            Ways We Help
+        </div>
+        <section id="programs-boxes">
+            <div class="row">
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+                <div class="program-box">
+                    <img src="./img/mostgoodsquare.svg" alt="">
+                    <div class="program-title">Bed and Bread Club</div>
+                </div>
+            </div>
+        </section>
+    </section>
+</section>
+<script src='./index.js'></script>
+</body>
+
+</html>
